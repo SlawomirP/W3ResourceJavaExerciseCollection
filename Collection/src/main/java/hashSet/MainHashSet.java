@@ -14,6 +14,9 @@ public class MainHashSet {
 
         iterate(set);
         System.out.println("--> " + size(set));
+        clearSet(set);
+        iterate(set);
+        System.out.println("---");
 
     }
 
@@ -27,5 +30,10 @@ public class MainHashSet {
         long sizeSet = set.stream()
                 .count();
        return sizeSet;
+    }
+
+    //Write a Java program to empty an hash set.
+    public static void clearSet(HashSet<String> set){
+        set.removeAll(set);
     }
 }

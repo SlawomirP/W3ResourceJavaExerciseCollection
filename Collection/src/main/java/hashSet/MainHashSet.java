@@ -23,16 +23,25 @@ public class MainHashSet {
         set.stream()
                 .forEach(value -> System.out.println(value));
         System.out.println("--> " + size(set));
-        clearSet(set);
-        iterate(set);
-        System.out.println("---");
-        System.out.println(numberElements(set));
-        System.out.println(isEmpty(set));
+//        clearSet(set);
+//        iterate(set);
+//        System.out.println("---");
+//        System.out.println(numberElements(set));
+//        System.out.println(isEmpty(set));
 
-        System.out.println("+++++++++++");
-        set = (HashSet)set2.clone();
-        iterate(set);
-        System.out.println("+++++++++++");
+//        System.out.println("+++++++++++");
+//        set = (HashSet)set2.clone();
+//        iterate(set);
+//        System.out.println("+++++++++++");
+
+//        convert a hash set to an array.
+//        set.toArray();
+
+//        convert a hash set to a List/ArrayList.
+        set.toArray();
+
+
+
 
 
 
